@@ -1,0 +1,115 @@
+.cabeçalho_menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.container__imagem {
+    padding: 1em;
+}
+/* código omitido */
+
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* código omitido */
+  
+  .lista-menu {
+      display: none;
+      position: absolute;
+  }
+  
+  /* código omitido */
+  /* código omitido */
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top:100%;
+}
+
+/* código omitido */
+.container__botao:checked ~ .lista-menu {
+    display: block;
+  }
+  .cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+/* código omitido */
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+/* código omitido */
+
+.lista-menu_titulo, 
+.lista-menu_item {
+    padding: 1em,
+    background-color: var(--branco);
+
+}
+
+/* código omitido */
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+/* código omitido */
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: upper
